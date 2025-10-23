@@ -61,3 +61,19 @@ export default function ProjectList() {
   );
 }
 <ContributionList projectId={p.id} />
+
+{projects.map((p) => (
+  <div
+    key={p.id}
+    className="border p-3 mb-3 rounded shadow bg-white animate-fadeIn"
+  >
+    <h3 className="font-bold text-lg">{p.name}</h3>
+    <p>{p.description}</p>
+    <small>{new Date(p.created_at).toLocaleString()}</small>
+
+    <div className="mt-2">
+      <CreateContribution projectId={p.id} />
+      <ContributionList projectId={p.id} />
+    </div>
+  </div>
+))}
