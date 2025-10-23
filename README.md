@@ -1,77 +1,72 @@
-<!-- Typing SVG Welcome Animation -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=900&color=00F700&center=true&vCenter=true&width=600&lines=🚀+Welcome+to+GitLaunch!;The+GitHub-Native+Open+Source+SaaS+Starter;Build+Revenue-Ready+Products+in+Public" alt="Welcome Animation" />
-</p>
+<h1 align="center">🔥 GitLaunch SaaS</h1>
+<p align="center"><b>The GitHub-Native Open Source SaaS Starter</b> — build profitable products in public with contributors, AI, and rapid shipping.</p>
 
 <p align="center">
-  <img src="https://github.com/Asymcrypto/GitLaunch/blob/main/assets/cover.png" alt="GitLaunch Cover" width="800" />
-</p>
-
----
-
-<h1 align="center">🔥 GitLaunch</h1>
-<p align="center">The <b>Open-Source SaaS Starter</b> that helps you launch profitable products directly from GitHub — build fast, build in public, build with AI.</p>
-
-<p align="center">
-  <a href="https://github.com/Asymcrypto/GitLaunch/stargazers"><img src="https://img.shields.io/github/stars/Asymcrypto/GitLaunch?style=social" alt="Star GitLaunch"/></a>
-  <a href="https://github.com/Asymcrypto/GitLaunch/network/members"><img src="https://img.shields.io/github/forks/Asymcrypto/GitLaunch?style=social" alt="Fork GitLaunch"/></a>
-  <a href="https://github.com/Asymcrypto"><img src="https://img.shields.io/badge/Creator-%40Asymcrypto-green" alt="Creator"/></a>
+  <a href="https://github.com/asymcrypto/gitlaunch-saas/stargazers"><img src="https://img.shields.io/github/stars/asymcrypto/gitlaunch-saas?style=social" alt="Star GitLaunch SaaS"/></a>
+  <a href="https://github.com/asymcrypto/gitlaunch-saas/network/members"><img src="https://img.shields.io/github/forks/asymcrypto/gitlaunch-saas?style=social" alt="Fork GitLaunch SaaS"/></a>
+  <a href="https://github.com/asymcrypto"><img src="https://img.shields.io/badge/Creator-%40Asymcrypto-green" alt="Creator"/></a>
 </p>
 
 ---
 
-## 💡 What is GitLaunch?
+## 🚀 Tagline
 
-GitLaunch is a **GitHub-Native Open Source SaaS Starter Kit** designed to help developers:
+> **“Build SaaS in Public. Launch Fast. Grow with Community. Monetize with Open-Source.”**
 
-✅ Build a SaaS faster  
-✅ Run it in public with transparency  
-✅ Get contributors from day 1  
-✅ Grow with community + AI assistance  
+---
+
+## 💡 What is GitLaunch SaaS?
+
+**GitLaunch SaaS** is a **GitHub-Native Open Source SaaS Starter Kit** that helps developers:
+
+✅ Build a SaaS quickly  
+✅ Launch in public from day one  
+✅ Gain contributors to build with you  
+✅ Use AI to speed up development  
 ✅ Turn open-source into real revenue  
 
-No complex setup — **GitHub is your backend for community, contribution & growth**.
+No heavy setup — GitHub becomes your **backend for community, collaboration & growth**.
 
 ---
 
-## 🚀 Why GitHub-Native?
+## 🤔 Why GitHub-Native?
 
-Because GitHub is the **best place to build in public**. GitLaunch uses GitHub as a growth engine:
+Because GitHub gives **distribution + contributors + trust**.
 
-| Feature | Why It Matters |
-|--------|----------------|
-| Issues as tasks | Build with contributor support |
-| Discussions | Community + users give feedback |
-| PRs | Code improves fast with community |
-| GitHub Actions | Automate deployments & tests |
-| GitHub Sponsors | Revenue from fans & users |
+| GitHub Feature | Why It Helps Your SaaS |
+|----------------|--------------------------|
+| Issues | Tasks become community-built |
+| Discussions | Feedback + feature requests |
+| Pull Requests | Code improves with contributors |
+| GitHub Actions | Auto deploy, test & build |
+| Sponsors | Earn revenue from supporters |
 
 ---
 
 ## 🧠 Core Features (v1)
 
-- 🚀 Pre-built SaaS Starter Template (Frontend + Backend)
-- 🤖 AI-Assistant Dev Workflow (prompts + examples included)
-- 📌 Public Build-in-Public Roadmap System
-- 👥 Contributor-First Structure (easy tasks, PR system)
-- 💰 Sponsorship + Monetization-Ready Setup
-- 🛠️ Zero-Config Setup — Start shipping immediately
+- ⚡ SaaS starter template (frontend + backend ready)
+- 🤖 AI-Assisted Dev Workflow (prompts & examples included)
+- 📌 Build-In-Public Roadmap & Task System
+- 👥 Contributor-Friendly Project Structure
+- 💰 Monetization Setup + Sponsorship System
+- 🛠 Zero-Config — clone & start shipping
 
-> v1 is **focused on build + launch foundation**.  
-> v2 will introduce **AI-powered SaaS automation**.
+> v1 = **Launch foundation**  
+> v2 = **AI automation + revenue modules**  
 
 ---
 
 ## 🛠️ Getting Started
 
-To use GitLaunch for your own SaaS:
+To use GitLaunch SaaS:
 
 ```bash
 # 1. Clone the starter
-git clone https://github.com/Asymcrypto/GitLaunch.git
+git clone https://github.com/asymcrypto/gitlaunch-saas.git
 
 # 2. Enter folder
-cd GitLaunch
+cd gitlaunch-saas
 
 # 3. Install dependencies
 npm install
