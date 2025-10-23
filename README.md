@@ -279,3 +279,132 @@ You can choose **one or combine multiple**:
   <br/>
   <em>Feature Modules</em>
 </p>
+
+## 🤝 Contributing
+
+We build **open-source, in public, with community collaboration**.  
+Whether you’re a beginner or expert, you are welcome here.
+
+### How to Contribute
+
+1. **Fork** the repo  
+2. **Check Issues** → pick one  
+3. **Comment** "I’ll take this"  
+4. Create a **feature branch**  
+5. Submit a **Pull Request**  
+6. Get reviewed, merged & credited  
+
+### Contribution Rules
+
+To keep the project clean & scalable:
+
+✅ Write clean, readable code  
+✅ Follow naming conventions  
+✅ Add documentation for new features  
+✅ One PR = one feature/fix  
+✅ Be respectful & collaborative  
+
+❌ No low-effort spam PRs  
+❌ No AI-only code dumps without testing  
+❌ No stealing existing module ideas without enhancement  
+
+> We care about **quality, community & growth**.
+
+---
+
+## 🌟 Contributor Wall
+
+Every contributor gets showcased here.  
+This grows your **developer reputation** and **personal brand**.
+
+<p align="center">
+  <a href="https://github.com/Asymcrypto/GitLaunch/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=Asymcrypto/GitLaunch" />
+  </a>
+</p>
+
+---
+
+## ❓ FAQ
+
+### 1. Is GitLaunch only for experienced developers?
+
+No — it’s designed for **beginners to advanced developers**.  
+Even a first-time SaaS builder can launch using this system.
+
+### 2. Can I use GitLaunch to build a commercial SaaS?
+
+Yes. You can build, launch and monetize your SaaS freely.  
+MIT license allows commercial use.
+
+### 3. Is this really GitHub-Native?
+
+Yes — GitLaunch uses GitHub for:
+
+- Community building  
+- Issues & tasks  
+- Documentation  
+- PR review workflow  
+- Growth via Build in Public  
+- Contributors acquisition  
+
+### 4. Do I need AI to use GitLaunch?
+
+No. But using AI tools included will help you **build 10× faster**.
+
+### 5. Will more modules and templates be added?
+
+Yes — new SaaS modules, AI agents & features drop in **every version**.
+
+---
+
+## ⭐ Support GitLaunch
+
+If this project inspires you:
+
+- **Star the repo**
+- **Follow the creator**
+- **Share it on X**
+
+<p align="center">
+  <a href="https://github.com/Asymcrypto/GitLaunch/stargazers">
+    <img src="https://img.shields.io/github/stars/Asymcrypto/GitLaunch?style=social" width="240" />
+  </a>
+</p>
+
+---
+
+## 🧡 Sponsor & Partner
+
+Your support helps accelerate development and fund contributors.
+
+| Option | Description |
+|--------|------------------------------|
+| GitHub Sponsors | Monthly support |
+| One-time donation | Buy coffee for the team |
+| Corporate Sponsorship | Support open-source SaaS innovation |
+
+> Sponsorship perks will include: early access features, premium templates, and community badges.
+
+---
+
+## 📝 Changelog
+
+All changes are documented in:  
+`CHANGELOG.md` (coming on first release)
+
+---
+
+## ⚖️ License
+
+This project is licensed under the **MIT License**.  
+This means you are free to use, modify, distribute, and sell your SaaS built with GitLaunch.
+
+---
+
+## 👑 Credits
+
+Created by **@Asymcrypto**  
+Built for founders who want to **launch fast, in public, with community & AI**.
+
+<p align="center">Made with ❤️ for the Open-Source world.</p>
