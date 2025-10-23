@@ -54,3 +54,19 @@ export default function ContributionList({ projectId }: Props) {
     </div>
   );
 }
+
+{contributions.map((c) => (
+  <div
+    key={c.id}
+    className="border p-2 mb-2 rounded bg-gray-50 animate-slideUp"
+  >
+    <p>{c.description}</p>
+    <div className="h-4 bg-gray-200 rounded overflow-hidden mt-1">
+      <div
+        className="h-full bg-green-500"
+        style={{ width: `${c.equity ?? 0}%` }}
+      ></div>
+    </div>
+    <small>Equity: {c.equity ?? 0}%</small>
+  </div>
+))}
