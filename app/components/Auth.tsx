@@ -39,3 +39,33 @@ const Auth: React.FC = () => {
 };
 
 export default Auth;
+
+"use client"; // Needed for useState
+
+import React, { useState } from "react";
+import { supabase } from "../lib/supabaseClient";
+import Button from "./Button";
+import { useRouter } from "next/navigation";
+
+export default function Auth() {
+  const router = useRouter();
+  const [email, setEmail] = useState("");
+
+  const handleSignIn = async () => {
+    const { error } = await supabase.auth.signInWithOtp({ email });
+    if (error) alert(error.message);
+    else alert("Check your email for login link!");
+  };
+
+  return (
+    <div>
+      <input
+        type="email"
+        placeholder="Your email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
+      <Button onClick={handleSignIn}>Sign In</Button>
+    </div>
+  );
+}
