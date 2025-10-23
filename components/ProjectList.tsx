@@ -47,3 +47,5 @@ export default function ProjectList() {
     </div>
   );
 }
+
+<ContributionList projectId={p.id} />
