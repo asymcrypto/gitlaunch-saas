@@ -279,15 +279,3 @@ You can choose **one or combine multiple**:
   <br/>
   <em>Feature Modules</em>
 </p>
-
----
-
-## ⚙️ Quick Start
-
-### 🧑‍💻 Local Development
-
-```bash
-git clone https://github.com/Asymcrypto/GitLaunch.git
-cd GitLaunch
-npm install
-npm run dev
