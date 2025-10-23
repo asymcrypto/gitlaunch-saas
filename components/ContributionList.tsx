@@ -4,7 +4,6 @@ import { supabase } from "../lib/supabaseClient";
 
 type Contribution = {
   id: string;
-  contributor_id: string;
   description: string | null;
   equity: number | null;
   created_at: string;
@@ -28,6 +27,18 @@ export default function ContributionList({ projectId }: Props) {
     };
 
     fetchContributions();
+
+    // Subscribe to Realtime updates for this project
+    const subscription = supabase
+      .from<Contribution>(`contributions:project_id=eq.${projectId}`)
+      .on("*", (payload) => {
+        fetchContributions();
+      })
+      .subscribe();
+
+    return () => {
+      supabase.removeSubscription(subscription);
+    };
   }, [projectId]);
 
   if (!contributions.length) return <p>No contributions yet.</p>;
