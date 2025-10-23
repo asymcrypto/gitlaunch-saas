@@ -20,3 +20,9 @@ const Header: React.FC<HeaderProps> = ({
 };
 
 export default Header;
+
+"use client";
+
+export default function Header() {
+  return <header className="p-4 bg-gray-900 text-white">GitLaunch SaaS</header>;
+}
