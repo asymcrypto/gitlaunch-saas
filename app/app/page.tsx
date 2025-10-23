@@ -1,4 +1,4 @@
-import React from "react";
+import BackToTop from "../components/BackToTop"; import React from "react";
 import Hero from "../components/Hero";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -49,3 +49,5 @@ const HomePage: React.FC = () => {
 };
 
 export default HomePage;
+{/* Back to Top Button */}
+<BackToTop />
