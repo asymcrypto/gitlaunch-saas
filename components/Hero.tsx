@@ -18,3 +18,14 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
+
+"use client";
+
+export default function Hero() {
+  return (
+    <section className="p-8 text-center bg-gray-100">
+      <h1 className="text-4xl font-bold">Welcome to GitLaunch SaaS</h1>
+      <p className="mt-4 text-lg">Manage your GitHub projects with ease!</p>
+    </section>
+  );
+}
