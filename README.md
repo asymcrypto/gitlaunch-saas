@@ -1,6 +1,3 @@
-<!-- Hero Banner Placeholder -->
-<p align="center">
-  <img src="assets/hero-banner.png" alt="GitLaunch Banner" width="900"/>
 </p>
 
 <h1 align="center">🔥 GitLaunch</h1>
