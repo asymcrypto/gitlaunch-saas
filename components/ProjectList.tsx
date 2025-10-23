@@ -30,10 +30,23 @@ export default function ProjectList() {
     };
 
     fetchProjects();
+
+    // Subscribe to Realtime updates
+    const subscription = supabase
+      .from<Project>("projects")
+      .on("*", (payload) => {
+        // Re-fetch projects on INSERT, UPDATE, DELETE
+        fetchProjects();
+      })
+      .subscribe();
+
+    return () => {
+      supabase.removeSubscription(subscription);
+    };
   }, []);
 
   if (loading) return <p>Loading projects...</p>;
-  if (projects.length === 0) return <p>No projects found.</p>;
+  if (!projects.length) return <p>No projects found.</p>;
 
   return (
     <div>
@@ -47,5 +60,4 @@ export default function ProjectList() {
     </div>
   );
 }
-
 <ContributionList projectId={p.id} />
