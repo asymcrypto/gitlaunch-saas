@@ -1,8 +1,3 @@
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=900&color=00F700&center=true&vCenter=true&width=650&lines=🚀+Welcome+to+GitLaunch;The+Ultimate+Open-Source+SaaS+Starter+Kit;Build+In+Public+%7C+With+AI+%7C+From+Day+One" alt="Typing Animation" />
-</p>
-
 <!-- Hero Banner Placeholder -->
 <p align="center">
   <img src="assets/hero-banner.png" alt="GitLaunch Banner" width="900"/>
