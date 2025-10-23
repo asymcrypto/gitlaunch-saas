@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "../components/Hero";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Button from "../components/Button";
@@ -8,6 +9,10 @@ import Features from "../components/Features";
 const HomePage: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
+      
+      {/* Hero Section */}
+      <Hero />
+
       {/* Header */}
       <Header
         title="🚀 Welcome to GitLaunch SaaS"
