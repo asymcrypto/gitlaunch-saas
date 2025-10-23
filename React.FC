@@ -1,0 +1,13 @@
+import React from "react";
+
+const Footer: React.FC = () => {
+  return (
+    <footer className="w-full bg-gray-800 text-white py-4 mt-10">
+      <div className="max-w-6xl mx-auto px-4 text-center">
+        <p>© {new Date().getFullYear()} GitLaunch SaaS. Built with ❤️ by @Asymcrypto (Asym Crypto)</p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
