@@ -51,3 +51,23 @@ const HomePage: React.FC = () => {
 export default HomePage;
 {/* Back to Top Button */}
 <BackToTop />
+
+"use client"; // Page uses client components
+
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Auth from "./components/Auth";
+import BackToTop from "./components/BackToTop";
+import Footer from "./components/Footer";
+
+export default function HomePage() {
+  return (
+    <>
+      <Header />
+      <Hero />
+      <Auth />
+      <BackToTop />
+      <Footer />
+    </>
+  );
+}
