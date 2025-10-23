@@ -1,5 +1,4 @@
-</p>
-
+for
 <h1 align="center">🔥 GitLaunch</h1>
 <p align="center">A powerful <b>GitHub-Native</b> SaaS Starter Kit designed to help founders build, launch, monetize, and scale open-source SaaS products — from Day 1.</p>
 
@@ -271,14 +270,13 @@ You can choose **one or combine multiple**:
 <p align="center">
   <img src="assets/screenshot-2.png" width="700" />
   <br/>
-  <em>Auth & Onboarding</em>
-</p>
+  <em>Auth & Onboardinmonetize your Sa/p>
 
 <p align="center">
   <img src="assets/screenshot-3.png" width="700" />
-  <br/>
-  <em>Feature Modules</em>
-</p>
+  <br/Feature>Feature Modules</em>p
+
+
 
 ## 🤝 Contributing
 
@@ -408,3 +406,5 @@ Created by **@Asymcrypto**
 Built for founders who want to **launch fast, in public, with community & AI**.
 
 <p align="center">Made with ❤️ for the Open-Source world.</p>
+
+
